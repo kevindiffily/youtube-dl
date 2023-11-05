@@ -9,7 +9,6 @@
 			"extensions": [
 				"mhutchie.git-graph",
 				"ms-python.vscode-pylance",
-				"ms-python.flake8",
 				"ms-python.python",
 				"GitHub.vscode-github-actions"
 			]
