@@ -13,20 +13,23 @@
 				"GitHub.vscode-github-actions"
 			]
 		}
-	}
-
+	},
+	
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
-
+	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
-
+	
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	"remoteUser": "root",
+	
+	// Use 'onCreateCommand' to run commands before the container is created
+	"onCreateCommand": "apk update && apk upgrade"
+	
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "pip3 install --user -r requirements.txt",
-
+	
 	// Configure tool-specific properties.
 	// "customizations": {},
-
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
 }
